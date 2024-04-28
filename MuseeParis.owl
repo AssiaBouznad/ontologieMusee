@@ -1,0 +1,2627 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12">
+    <Prefix name="" IRI="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accès"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adresse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alarme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Américaine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anti-Intrusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arrondissement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artiste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BoutiqueSouvenirs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brochure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Café"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caméra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Complet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coordonnée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeCostumes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeMonnaies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DePeintures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DePhotographies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DePiecesDeMobiliers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeSculptures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empereur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facebook"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Femme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fondateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fouille"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Française"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guide_Audio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Langue_des_signes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Librairie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Numéro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oeuvre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParMétro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peinture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Permanente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photographie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PourAdulte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PourEnfant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PourHandicapé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PourOeuvre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PourPeinture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PourPhotographie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PourSculpture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Privé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Président"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RessourceMultimédia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Récompense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Réduit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RéseauSocial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sculpture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SiteWeb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spectacle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sponsor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Style"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sécurité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tarif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temporaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Twitter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Téléphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vidéo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vigile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D&apos;Estampes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#a_créé"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#a_fondé_le_musée"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#a_reçu_comme_award"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#a_été_créé_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#a_été_fondé_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_arrondissement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_de_style"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_exposé_au_musée"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_la_rue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_le_numéro_de_rue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_le_numéro_de_téléphone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_le_site_web"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_le_style"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_le_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_un"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_une"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#expose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#paye"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#se_situe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#se_trouve_au_numéro_de_rue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#se_trouve_dans_la_rue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#se_trouve_dans_le"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sont_payés_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utilise_la_technique"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_l&apos;award_reçu_par_le_musée"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AnneeDeCreation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adulte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anonyme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ascenseur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Auguste_Clésinger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bardaje"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beaux-Arts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bois"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carnavalet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chateau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Classique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DuLouvre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edouard_Manet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Egidio_Scaioni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Encre_de_Chine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enfants"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Etudiants"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Famille"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Femme_piquée_par_un_serpent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#François_Gérard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Georges_Clairin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Huile_sur_bois"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Huile_sur_toile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hôtel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JacquesChirac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Journalistes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#La_Bacchante"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#La_Joconde"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Label_Tourisme_et_Handicap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Léonard_de_Vinci"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marbre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Musée_de_France"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Napoléon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Palais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PalaisGalliera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PeabodyAwards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Petit_Palais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Portrait_de_Juliette_Recamier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quai_Jacques_Chirac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ronde_bosse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rue_de_Sévigné"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sarah_Bernhardt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sculpture_masculine_anthropomorphe_Moai_kava-kava"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scène_à_la_piscine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Séniors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VenusDeMilo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vivex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#avenue_Pierre_1er_de_Serbie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#avenue_Winston-Churchill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rue_de_Bellechasse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rue_de_Lille"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#+33_1_40_20_53_17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#+33_1_40_49_48_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#+33_1_56_61_70_00"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#-26ans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#0€"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1er"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#16ème"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#16€"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#22€"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3ème"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#31€"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#37"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#62"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7ème"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#8ème"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Le_Déjeuner_sur_l&apos;herbe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peinture_de_l&apos;église_Abba_Antonios"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValéryGiscardD&apos;Estaing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://quaibranly.fr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.musee-orsay.fr"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:oneof"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Adresse"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#se_situe"/>
+            <Class IRI="#Musée"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Artiste"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#a_créé"/>
+                <Class IRI="#Oeuvre"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#a_créé"/>
+                <Class IRI="#Oeuvre"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fondateur"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#a_fondé_le_musée"/>
+            <Class IRI="#Musée"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Musée"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expose"/>
+            <Class IRI="#Oeuvre"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Musée"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#expose"/>
+            <Class IRI="#Oeuvre"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oeuvre"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#est_une"/>
+            <ObjectUnionOf>
+                <Class IRI="#Peinture"/>
+                <Class IRI="#Photographie"/>
+                <Class IRI="#Sculpture"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oeuvre"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#est_exposé_au_musée"/>
+            <Class IRI="#Musée"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Permanente"/>
+        <ObjectComplementOf>
+            <Class IRI="#Temporaire"/>
+        </ObjectComplementOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Technique"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+            <Class IRI="#Oeuvre"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Temporaire"/>
+        <ObjectComplementOf>
+            <Class IRI="#Permanente"/>
+        </ObjectComplementOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Alarme"/>
+        <Class IRI="#Sécurité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Américaine"/>
+        <Class IRI="#Récompense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anti-Intrusion"/>
+        <Class IRI="#Alarme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arrondissement"/>
+        <Class IRI="#Adresse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoutiqueSouvenirs"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brochure"/>
+        <Class IRI="#RessourceMultimédia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Café"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caméra"/>
+        <Class IRI="#Sécurité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Complet"/>
+        <Class IRI="#Tarif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concert"/>
+        <Class IRI="#PourAdulte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeCostumes"/>
+        <Class IRI="#Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeMonnaies"/>
+        <Class IRI="#Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DePeintures"/>
+        <Class IRI="#Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DePhotographies"/>
+        <Class IRI="#Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DePiecesDeMobiliers"/>
+        <Class IRI="#Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeSculptures"/>
+        <Class IRI="#Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empereur"/>
+        <Class IRI="#Fondateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facebook"/>
+        <Class IRI="#RéseauSocial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Femme"/>
+        <Class IRI="#Artiste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fouille"/>
+        <Class IRI="#Sécurité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Française"/>
+        <Class IRI="#Récompense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guide_Audio"/>
+        <Class IRI="#RessourceMultimédia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homme"/>
+        <Class IRI="#Artiste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instagram"/>
+        <Class IRI="#RéseauSocial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Langue_des_signes"/>
+        <Class IRI="#RessourceMultimédia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Librairie"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Numéro"/>
+        <Class IRI="#Adresse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParMétro"/>
+        <Class IRI="#Accès"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parking"/>
+        <Class IRI="#Accès"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peinture"/>
+        <Class IRI="#Oeuvre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Permanente"/>
+        <Class IRI="#Exposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photographie"/>
+        <Class IRI="#Oeuvre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PourAdulte"/>
+        <Class IRI="#Activité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PourEnfant"/>
+        <Class IRI="#Activité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PourHandicapé"/>
+        <Class IRI="#Accès"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PourOeuvre"/>
+        <Class IRI="#Alarme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PourPeinture"/>
+        <Class IRI="#Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PourPhotographie"/>
+        <Class IRI="#Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PourSculpture"/>
+        <Class IRI="#Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Privé"/>
+        <Class IRI="#Sponsor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Président"/>
+        <Class IRI="#Fondateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publique"/>
+        <Class IRI="#Sponsor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurant"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rue"/>
+        <Class IRI="#Adresse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Réduit"/>
+        <Class IRI="#Tarif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sculpture"/>
+        <Class IRI="#Oeuvre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SiteWeb"/>
+        <Class IRI="#Coordonnée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spectacle"/>
+        <Class IRI="#PourEnfant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Style"/>
+        <Class IRI="#Architecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temporaire"/>
+        <Class IRI="#Exposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Twitter"/>
+        <Class IRI="#RéseauSocial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#Architecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Téléphone"/>
+        <Class IRI="#Coordonnée"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vidéo"/>
+        <Class IRI="#RessourceMultimédia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vigile"/>
+        <Class IRI="#Sécurité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D&apos;Estampes"/>
+        <Class IRI="#Collection"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Adresse"/>
+        <Class IRI="#Coordonnée"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeCostumes"/>
+        <Class IRI="#DeMonnaies"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeCostumes"/>
+        <Class IRI="#DeSculptures"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Femme"/>
+        <Class IRI="#Homme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Permanente"/>
+        <Class IRI="#Temporaire"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Public"/>
+        <NamedIndividual IRI="#Adulte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homme"/>
+        <NamedIndividual IRI="#Anonyme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PourHandicapé"/>
+        <NamedIndividual IRI="#Ascenseur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homme"/>
+        <NamedIndividual IRI="#Auguste_Clésinger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Style"/>
+        <NamedIndividual IRI="#Beaux-Arts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PourSculpture"/>
+        <NamedIndividual IRI="#Bois"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Musée"/>
+        <NamedIndividual IRI="#Carnavalet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Chateau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Style"/>
+        <NamedIndividual IRI="#Classique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Musée"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Musée"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homme"/>
+        <NamedIndividual IRI="#Edouard_Manet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homme"/>
+        <NamedIndividual IRI="#Egidio_Scaioni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PourPeinture"/>
+        <NamedIndividual IRI="#Encre_de_Chine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public"/>
+        <NamedIndividual IRI="#Enfants"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public"/>
+        <NamedIndividual IRI="#Etudiants"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public"/>
+        <NamedIndividual IRI="#Famille"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sculpture"/>
+        <NamedIndividual IRI="#Femme_piquée_par_un_serpent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homme"/>
+        <NamedIndividual IRI="#François_Gérard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Gare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homme"/>
+        <NamedIndividual IRI="#Georges_Clairin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PourPeinture"/>
+        <NamedIndividual IRI="#Huile_sur_bois"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PourPeinture"/>
+        <NamedIndividual IRI="#Huile_sur_toile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Hôtel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Président"/>
+        <NamedIndividual IRI="#JacquesChirac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public"/>
+        <NamedIndividual IRI="#Journalistes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sculpture"/>
+        <NamedIndividual IRI="#La_Bacchante"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Peinture"/>
+        <NamedIndividual IRI="#La_Joconde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Française"/>
+        <NamedIndividual IRI="#Label_Tourisme_et_Handicap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homme"/>
+        <NamedIndividual IRI="#Léonard_de_Vinci"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PourSculpture"/>
+        <NamedIndividual IRI="#Marbre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Style"/>
+        <NamedIndividual IRI="#Moderne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Française"/>
+        <NamedIndividual IRI="#Musée_de_France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empereur"/>
+        <NamedIndividual IRI="#Napoléon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Palais"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Musée"/>
+        <NamedIndividual IRI="#PalaisGalliera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Américaine"/>
+        <NamedIndividual IRI="#PeabodyAwards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Musée"/>
+        <NamedIndividual IRI="#Petit_Palais"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Peinture"/>
+        <NamedIndividual IRI="#Portrait_de_Juliette_Recamier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rue"/>
+        <NamedIndividual IRI="#Quai_Jacques_Chirac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PourSculpture"/>
+        <NamedIndividual IRI="#Ronde_bosse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rue"/>
+        <NamedIndividual IRI="#Rue_de_Sévigné"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Peinture"/>
+        <NamedIndividual IRI="#Sarah_Bernhardt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sculpture"/>
+        <NamedIndividual IRI="#Sculpture_masculine_anthropomorphe_Moai_kava-kava"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photographie"/>
+        <NamedIndividual IRI="#Scène_à_la_piscine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public"/>
+        <NamedIndividual IRI="#Séniors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sculpture"/>
+        <NamedIndividual IRI="#VenusDeMilo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PourPhotographie"/>
+        <NamedIndividual IRI="#Vivex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rue"/>
+        <NamedIndividual IRI="#avenue_Pierre_1er_de_Serbie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rue"/>
+        <NamedIndividual IRI="#avenue_Winston-Churchill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rue"/>
+        <NamedIndividual IRI="#rue_de_Bellechasse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rue"/>
+        <NamedIndividual IRI="#rue_de_Lille"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Téléphone"/>
+        <NamedIndividual IRI="#+33_1_40_20_53_17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Téléphone"/>
+        <NamedIndividual IRI="#+33_1_40_49_48_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Téléphone"/>
+        <NamedIndividual IRI="#+33_1_56_61_70_00"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public"/>
+        <NamedIndividual IRI="#-26ans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Réduit"/>
+        <NamedIndividual IRI="#0€"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Numéro"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arrondissement"/>
+        <NamedIndividual IRI="#1er"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Numéro"/>
+        <NamedIndividual IRI="#10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arrondissement"/>
+        <NamedIndividual IRI="#16ème"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Complet"/>
+        <NamedIndividual IRI="#16€"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Complet"/>
+        <NamedIndividual IRI="#22€"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arrondissement"/>
+        <NamedIndividual IRI="#3ème"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Réduit"/>
+        <NamedIndividual IRI="#31€"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Numéro"/>
+        <NamedIndividual IRI="#37"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Numéro"/>
+        <NamedIndividual IRI="#62"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arrondissement"/>
+        <NamedIndividual IRI="#7ème"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arrondissement"/>
+        <NamedIndividual IRI="#8ème"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Musée"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Peinture"/>
+        <NamedIndividual IRI="#Le_Déjeuner_sur_l&apos;herbe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Peinture"/>
+        <NamedIndividual IRI="#Peinture_de_l&apos;église_Abba_Antonios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Président"/>
+        <NamedIndividual IRI="#ValéryGiscardD&apos;Estaing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SiteWeb"/>
+        <NamedIndividual IRI="https://quaibranly.fr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SiteWeb"/>
+        <NamedIndividual IRI="https://www.musee-orsay.fr"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paye"/>
+        <NamedIndividual IRI="#Adulte"/>
+        <NamedIndividual IRI="#16€"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paye"/>
+        <NamedIndividual IRI="#Adulte"/>
+        <NamedIndividual IRI="#22€"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_créé"/>
+        <NamedIndividual IRI="#Anonyme"/>
+        <NamedIndividual IRI="#Sculpture_masculine_anthropomorphe_Moai_kava-kava"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_créé"/>
+        <NamedIndividual IRI="#Anonyme"/>
+        <NamedIndividual IRI="#VenusDeMilo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_créé"/>
+        <NamedIndividual IRI="#Anonyme"/>
+        <NamedIndividual IRI="#Peinture_de_l&apos;église_Abba_Antonios"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_créé"/>
+        <NamedIndividual IRI="#Auguste_Clésinger"/>
+        <NamedIndividual IRI="#Femme_piquée_par_un_serpent"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_style"/>
+        <NamedIndividual IRI="#Beaux-Arts"/>
+        <NamedIndividual IRI="#PalaisGalliera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_style"/>
+        <NamedIndividual IRI="#Beaux-Arts"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+        <NamedIndividual IRI="#Bois"/>
+        <NamedIndividual IRI="#Sculpture_masculine_anthropomorphe_Moai_kava-kava"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_de_style"/>
+        <NamedIndividual IRI="#Carnavalet"/>
+        <NamedIndividual IRI="#Classique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_un"/>
+        <NamedIndividual IRI="#Carnavalet"/>
+        <NamedIndividual IRI="#Hôtel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expose"/>
+        <NamedIndividual IRI="#Carnavalet"/>
+        <NamedIndividual IRI="#Portrait_de_Juliette_Recamier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_type"/>
+        <NamedIndividual IRI="#Chateau"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_style"/>
+        <NamedIndividual IRI="#Classique"/>
+        <NamedIndividual IRI="#Carnavalet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_style"/>
+        <NamedIndividual IRI="#Classique"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_fondé_par"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+        <NamedIndividual IRI="#Napoléon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_de_style"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+        <NamedIndividual IRI="#Classique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_un"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+        <NamedIndividual IRI="#Chateau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expose"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+        <NamedIndividual IRI="#La_Joconde"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expose"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+        <NamedIndividual IRI="#VenusDeMilo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trouve_dans_le"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+        <NamedIndividual IRI="#1er"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_fondé_par"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+        <NamedIndividual IRI="#JacquesChirac"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_de_style"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+        <NamedIndividual IRI="#Moderne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expose"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+        <NamedIndividual IRI="#Sculpture_masculine_anthropomorphe_Moai_kava-kava"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expose"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+        <NamedIndividual IRI="#Peinture_de_l&apos;église_Abba_Antonios"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trouve_dans_le"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+        <NamedIndividual IRI="#7ème"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_créé"/>
+        <NamedIndividual IRI="#Edouard_Manet"/>
+        <NamedIndividual IRI="#Le_Déjeuner_sur_l&apos;herbe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_créé"/>
+        <NamedIndividual IRI="#Egidio_Scaioni"/>
+        <NamedIndividual IRI="#Scène_à_la_piscine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+        <NamedIndividual IRI="#Encre_de_Chine"/>
+        <NamedIndividual IRI="#Peinture_de_l&apos;église_Abba_Antonios"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paye"/>
+        <NamedIndividual IRI="#Enfants"/>
+        <NamedIndividual IRI="#0€"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paye"/>
+        <NamedIndividual IRI="#Etudiants"/>
+        <NamedIndividual IRI="#0€"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paye"/>
+        <NamedIndividual IRI="#Famille"/>
+        <NamedIndividual IRI="#31€"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_créé_par"/>
+        <NamedIndividual IRI="#Femme_piquée_par_un_serpent"/>
+        <NamedIndividual IRI="#Auguste_Clésinger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_exposé_au_musée"/>
+        <NamedIndividual IRI="#Femme_piquée_par_un_serpent"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_créé"/>
+        <NamedIndividual IRI="#François_Gérard"/>
+        <NamedIndividual IRI="#Portrait_de_Juliette_Recamier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_type"/>
+        <NamedIndividual IRI="#Gare"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_créé"/>
+        <NamedIndividual IRI="#Georges_Clairin"/>
+        <NamedIndividual IRI="#Sarah_Bernhardt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+        <NamedIndividual IRI="#Huile_sur_bois"/>
+        <NamedIndividual IRI="#La_Joconde"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+        <NamedIndividual IRI="#Huile_sur_toile"/>
+        <NamedIndividual IRI="#Portrait_de_Juliette_Recamier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+        <NamedIndividual IRI="#Huile_sur_toile"/>
+        <NamedIndividual IRI="#Sarah_Bernhardt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+        <NamedIndividual IRI="#Huile_sur_toile"/>
+        <NamedIndividual IRI="#Le_Déjeuner_sur_l&apos;herbe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_type"/>
+        <NamedIndividual IRI="#Hôtel"/>
+        <NamedIndividual IRI="#Carnavalet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_fondé_le_musée"/>
+        <NamedIndividual IRI="#JacquesChirac"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_fondé_le_musée"/>
+        <NamedIndividual IRI="#JacquesChirac"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paye"/>
+        <NamedIndividual IRI="#Journalistes"/>
+        <NamedIndividual IRI="#0€"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_créé_par"/>
+        <NamedIndividual IRI="#La_Bacchante"/>
+        <NamedIndividual IRI="#Auguste_Clésinger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_exposé_au_musée"/>
+        <NamedIndividual IRI="#La_Bacchante"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_créé_par"/>
+        <NamedIndividual IRI="#La_Joconde"/>
+        <NamedIndividual IRI="#Léonard_de_Vinci"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_exposé_au_musée"/>
+        <NamedIndividual IRI="#La_Joconde"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_l&apos;award_reçu_par_le_musée"/>
+        <NamedIndividual IRI="#Label_Tourisme_et_Handicap"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_l&apos;award_reçu_par_le_musée"/>
+        <NamedIndividual IRI="#Label_Tourisme_et_Handicap"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_l&apos;award_reçu_par_le_musée"/>
+        <NamedIndividual IRI="#Label_Tourisme_et_Handicap"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_créé"/>
+        <NamedIndividual IRI="#Léonard_de_Vinci"/>
+        <NamedIndividual IRI="#La_Joconde"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+        <NamedIndividual IRI="#Marbre"/>
+        <NamedIndividual IRI="#Femme_piquée_par_un_serpent"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+        <NamedIndividual IRI="#Marbre"/>
+        <NamedIndividual IRI="#La_Bacchante"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+        <NamedIndividual IRI="#Marbre"/>
+        <NamedIndividual IRI="#VenusDeMilo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_style"/>
+        <NamedIndividual IRI="#Moderne"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_l&apos;award_reçu_par_le_musée"/>
+        <NamedIndividual IRI="#Musée_de_France"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_l&apos;award_reçu_par_le_musée"/>
+        <NamedIndividual IRI="#Musée_de_France"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_l&apos;award_reçu_par_le_musée"/>
+        <NamedIndividual IRI="#Musée_de_France"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_fondé_le_musée"/>
+        <NamedIndividual IRI="#Napoléon"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_type"/>
+        <NamedIndividual IRI="#Palais"/>
+        <NamedIndividual IRI="#PalaisGalliera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_type"/>
+        <NamedIndividual IRI="#Palais"/>
+        <NamedIndividual IRI="#Petit_Palais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_de_style"/>
+        <NamedIndividual IRI="#PalaisGalliera"/>
+        <NamedIndividual IRI="#Beaux-Arts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_un"/>
+        <NamedIndividual IRI="#PalaisGalliera"/>
+        <NamedIndividual IRI="#Palais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_l&apos;award_reçu_par_le_musée"/>
+        <NamedIndividual IRI="#PeabodyAwards"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_de_style"/>
+        <NamedIndividual IRI="#Petit_Palais"/>
+        <NamedIndividual IRI="#Classique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_un"/>
+        <NamedIndividual IRI="#Petit_Palais"/>
+        <NamedIndividual IRI="#Palais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_créé_par"/>
+        <NamedIndividual IRI="#Portrait_de_Juliette_Recamier"/>
+        <NamedIndividual IRI="#François_Gérard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_exposé_au_musée"/>
+        <NamedIndividual IRI="#Portrait_de_Juliette_Recamier"/>
+        <NamedIndividual IRI="#Carnavalet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_rue"/>
+        <NamedIndividual IRI="#Quai_Jacques_Chirac"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+        <NamedIndividual IRI="#Ronde_bosse"/>
+        <NamedIndividual IRI="#Femme_piquée_par_un_serpent"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_rue"/>
+        <NamedIndividual IRI="#Rue_de_Sévigné"/>
+        <NamedIndividual IRI="#Carnavalet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_créé_par"/>
+        <NamedIndividual IRI="#Sarah_Bernhardt"/>
+        <NamedIndividual IRI="#Georges_Clairin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_exposé_au_musée"/>
+        <NamedIndividual IRI="#Sarah_Bernhardt"/>
+        <NamedIndividual IRI="#Petit_Palais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_créé_par"/>
+        <NamedIndividual IRI="#Sculpture_masculine_anthropomorphe_Moai_kava-kava"/>
+        <NamedIndividual IRI="#Anonyme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_exposé_au_musée"/>
+        <NamedIndividual IRI="#Sculpture_masculine_anthropomorphe_Moai_kava-kava"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_créé_par"/>
+        <NamedIndividual IRI="#Scène_à_la_piscine"/>
+        <NamedIndividual IRI="#Egidio_Scaioni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_exposé_au_musée"/>
+        <NamedIndividual IRI="#Scène_à_la_piscine"/>
+        <NamedIndividual IRI="#PalaisGalliera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paye"/>
+        <NamedIndividual IRI="#Séniors"/>
+        <NamedIndividual IRI="#0€"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_créé_par"/>
+        <NamedIndividual IRI="#VenusDeMilo"/>
+        <NamedIndividual IRI="#Anonyme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_exposé_au_musée"/>
+        <NamedIndividual IRI="#VenusDeMilo"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+        <NamedIndividual IRI="#Vivex"/>
+        <NamedIndividual IRI="#Scène_à_la_piscine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_rue"/>
+        <NamedIndividual IRI="#avenue_Pierre_1er_de_Serbie"/>
+        <NamedIndividual IRI="#PalaisGalliera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_rue"/>
+        <NamedIndividual IRI="#avenue_Winston-Churchill"/>
+        <NamedIndividual IRI="#Petit_Palais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_rue"/>
+        <NamedIndividual IRI="#rue_de_Bellechasse"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_la_rue"/>
+        <NamedIndividual IRI="#rue_de_Lille"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_numéro_de_téléphone"/>
+        <NamedIndividual IRI="#+33_1_40_20_53_17"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_numéro_de_téléphone"/>
+        <NamedIndividual IRI="#+33_1_40_49_48_01"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_numéro_de_téléphone"/>
+        <NamedIndividual IRI="#+33_1_56_61_70_00"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paye"/>
+        <NamedIndividual IRI="#-26ans"/>
+        <NamedIndividual IRI="#0€"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sont_payés_par"/>
+        <NamedIndividual IRI="#0€"/>
+        <NamedIndividual IRI="#Enfants"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sont_payés_par"/>
+        <NamedIndividual IRI="#0€"/>
+        <NamedIndividual IRI="#Etudiants"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sont_payés_par"/>
+        <NamedIndividual IRI="#0€"/>
+        <NamedIndividual IRI="#Journalistes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sont_payés_par"/>
+        <NamedIndividual IRI="#0€"/>
+        <NamedIndividual IRI="#Séniors"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sont_payés_par"/>
+        <NamedIndividual IRI="#0€"/>
+        <NamedIndividual IRI="#-26ans"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_numéro_de_rue"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_arrondissement"/>
+        <NamedIndividual IRI="#1er"/>
+        <NamedIndividual IRI="#DuLouvre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_numéro_de_rue"/>
+        <NamedIndividual IRI="#10"/>
+        <NamedIndividual IRI="#PalaisGalliera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_arrondissement"/>
+        <NamedIndividual IRI="#16ème"/>
+        <NamedIndividual IRI="#PalaisGalliera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sont_payés_par"/>
+        <NamedIndividual IRI="#16€"/>
+        <NamedIndividual IRI="#Adulte"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sont_payés_par"/>
+        <NamedIndividual IRI="#22€"/>
+        <NamedIndividual IRI="#Adulte"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_arrondissement"/>
+        <NamedIndividual IRI="#3ème"/>
+        <NamedIndividual IRI="#Carnavalet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sont_payés_par"/>
+        <NamedIndividual IRI="#31€"/>
+        <NamedIndividual IRI="#Famille"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_numéro_de_rue"/>
+        <NamedIndividual IRI="#37"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_numéro_de_rue"/>
+        <NamedIndividual IRI="#62"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_arrondissement"/>
+        <NamedIndividual IRI="#7ème"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_arrondissement"/>
+        <NamedIndividual IRI="#7ème"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_arrondissement"/>
+        <NamedIndividual IRI="#8ème"/>
+        <NamedIndividual IRI="#Petit_Palais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_reçu_comme_award"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+        <NamedIndividual IRI="#Label_Tourisme_et_Handicap"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_reçu_comme_award"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+        <NamedIndividual IRI="#Musée_de_France"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_reçu_comme_award"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+        <NamedIndividual IRI="#PeabodyAwards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_fondé_par"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+        <NamedIndividual IRI="#ValéryGiscardD&apos;Estaing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_de_style"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+        <NamedIndividual IRI="#Beaux-Arts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_une"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+        <NamedIndividual IRI="#Gare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expose"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+        <NamedIndividual IRI="#Femme_piquée_par_un_serpent"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expose"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+        <NamedIndividual IRI="#La_Bacchante"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expose"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+        <NamedIndividual IRI="#Le_Déjeuner_sur_l&apos;herbe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#se_trouve_dans_le"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+        <NamedIndividual IRI="#7ème"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_créé_par"/>
+        <NamedIndividual IRI="#Le_Déjeuner_sur_l&apos;herbe"/>
+        <NamedIndividual IRI="#Edouard_Manet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_exposé_au_musée"/>
+        <NamedIndividual IRI="#Le_Déjeuner_sur_l&apos;herbe"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_été_créé_par"/>
+        <NamedIndividual IRI="#Peinture_de_l&apos;église_Abba_Antonios"/>
+        <NamedIndividual IRI="#Anonyme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_exposé_au_musée"/>
+        <NamedIndividual IRI="#Peinture_de_l&apos;église_Abba_Antonios"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#a_fondé_le_musée"/>
+        <NamedIndividual IRI="#ValéryGiscardD&apos;Estaing"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_site_web"/>
+        <NamedIndividual IRI="https://quaibranly.fr"/>
+        <NamedIndividual IRI="#DuQuaiBranly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#est_le_site_web"/>
+        <NamedIndividual IRI="https://www.musee-orsay.fr"/>
+        <NamedIndividual IRI="#D&apos;Orsay"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#a_créé"/>
+        <ObjectProperty IRI="#a_été_créé_par"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#a_fondé_le_musée"/>
+        <ObjectProperty IRI="#a_été_fondé_par"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#a_reçu_comme_award"/>
+        <ObjectProperty IRI="#est_l&apos;award_reçu_par_le_musée"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#est_arrondissement"/>
+        <ObjectProperty IRI="#se_trouve_dans_le"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#est_de_style"/>
+        <ObjectProperty IRI="#est_le_style"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#est_exposé_au_musée"/>
+        <ObjectProperty IRI="#expose"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#est_la_rue"/>
+        <ObjectProperty IRI="#se_trouve_dans_la_rue"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#est_la_technique_utilisée_pour"/>
+        <ObjectProperty IRI="#utilise_la_technique"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#est_le_numéro_de_rue"/>
+        <ObjectProperty IRI="#se_trouve_au_numéro_de_rue"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#est_le_type"/>
+        <ObjectProperty IRI="#est_un"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#paye"/>
+        <ObjectProperty IRI="#sont_payés_par"/>
+    </InverseObjectProperties>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nom"/>
+        <Class IRI="#Artiste"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Accès</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Accès</IRI>
+        <IRI>#Accès</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Activité</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Activité</IRI>
+        <IRI>#Activité</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Adresse</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Adresse</IRI>
+        <IRI>#Adresse</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Alarme</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Alarme</IRI>
+        <IRI>#Alarme</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Américaine</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Américaine</IRI>
+        <IRI>#Américaine</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Anti-Intrusion</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anti-Intrusion</IRI>
+        <IRI>#Anti-Intrusion</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Architecture</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Architecture</IRI>
+        <IRI>#Architecture</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Arrondissement</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Arrondissement</IRI>
+        <IRI>#Arrondissement</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Artiste</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Artiste</IRI>
+        <IRI>#Artiste</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#BoutiqueSouvenirs</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BoutiqueSouvenirs</IRI>
+        <IRI>#BoutiqueSouvenirs</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Brochure</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Brochure</IRI>
+        <IRI>#Brochure</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Café</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Café</IRI>
+        <IRI>#Café</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Caméra</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Caméra</IRI>
+        <IRI>#Caméra</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Collection</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Collection</IRI>
+        <IRI>#Collection</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Complet</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Concert</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Concert</IRI>
+        <IRI>#Concert</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Coordonnée</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Coordonnée</IRI>
+        <IRI>#Coordonnée</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#DeCostumes</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeCostumes</IRI>
+        <IRI>#DeCostumes</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#DeMonnaies</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeMonnaies</IRI>
+        <IRI>#DeMonnaies</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#DePeintures</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DePeintures</IRI>
+        <IRI>#DePeintures</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#DePhotographies</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DePhotographies</IRI>
+        <IRI>#DePhotographies</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#DePiecesDeMobiliers</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DePiecesDeMobiliers</IRI>
+        <IRI>#DePiecesDeMobiliers</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#DeSculptures</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeSculptures</IRI>
+        <IRI>#DeSculptures</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Empereur</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Empereur</IRI>
+        <IRI>#Empereur</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Exposition</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Exposition</IRI>
+        <IRI>#Exposition</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Facebook</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Facebook</IRI>
+        <IRI>#Facebook</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Femme</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Femme</IRI>
+        <IRI>#Femme</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Fondateur</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fondateur</IRI>
+        <IRI>#Fondateur</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Fouille</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fouille</IRI>
+        <IRI>#Fouille</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Française</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Française</IRI>
+        <IRI>#Française</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Guide_Audio</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Guide_Audio</IRI>
+        <IRI>#Guide_Audio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Homme</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Homme</IRI>
+        <IRI>#Homme</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Instagram</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Instagram</IRI>
+        <IRI>#Instagram</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Langue_des_signes</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Langue_des_signes</IRI>
+        <IRI>#Langue_des_signes</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Librairie</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Librairie</IRI>
+        <IRI>#Librairie</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Musée</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Musée</IRI>
+        <IRI>#Musée</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Numéro</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Numéro</IRI>
+        <IRI>#Numéro</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Oeuvre</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Oeuvre</IRI>
+        <IRI>#Oeuvre</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ParMétro</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ParMétro</IRI>
+        <IRI>#ParMétro</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Parking</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Parking</IRI>
+        <IRI>#Parking</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Peinture</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Peinture</IRI>
+        <IRI>#Peinture</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Permanente</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Permanente</IRI>
+        <IRI>#Permanente</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Photographie</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Photographie</IRI>
+        <IRI>#Photographie</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PourAdulte</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PourAdulte</IRI>
+        <IRI>#PourAdulte</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PourEnfant</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PourEnfant</IRI>
+        <IRI>#PourEnfant</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PourHandicapé</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PourHandicapé</IRI>
+        <IRI>#PourHandicapé</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PourOeuvre</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PourOeuvre</IRI>
+        <IRI>#PourOeuvre</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PourPeinture</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PourPeinture</IRI>
+        <IRI>#PourPeinture</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PourPhotographie</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PourPhotographie</IRI>
+        <IRI>#PourPhotographie</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PourSculpture</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PourSculpture</IRI>
+        <IRI>#PourSculpture</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Privé</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Privé</IRI>
+        <IRI>#Privé</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Président</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Président</IRI>
+        <IRI>#Président</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Public</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Public</IRI>
+        <IRI>#Public</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Publique</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Publique</IRI>
+        <IRI>#Publique</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#RessourceMultimédia</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RessourceMultimédia</IRI>
+        <IRI>#RessourceMultimédia</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Restaurant</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Restaurant</IRI>
+        <IRI>#Restaurant</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Rue</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rue</IRI>
+        <IRI>#Rue</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Récompense</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Récompense</IRI>
+        <IRI>#Récompense</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Réduit</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Réduit</IRI>
+        <IRI>#Complet</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Réduit</IRI>
+        <IRI>#Réduit</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#RéseauSocial</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RéseauSocial</IRI>
+        <IRI>#RéseauSocial</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sculpture</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sculpture</IRI>
+        <IRI>#Sculpture</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Service</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Service</IRI>
+        <IRI>#Service</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#SiteWeb</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SiteWeb</IRI>
+        <IRI>#SiteWeb</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Spectacle</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Spectacle</IRI>
+        <IRI>#Spectacle</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sponsor</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sponsor</IRI>
+        <IRI>#Sponsor</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Style</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Style</IRI>
+        <IRI>#Style</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sécurité</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sécurité</IRI>
+        <IRI>#Sécurité</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Tarif</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tarif</IRI>
+        <IRI>#Tarif</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Technique</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Technique</IRI>
+        <IRI>#Technique</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Temporaire</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Temporaire</IRI>
+        <IRI>#Temporaire</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Twitter</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Twitter</IRI>
+        <IRI>#Twitter</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Type</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Type</IRI>
+        <IRI>#Type</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Téléphone</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Téléphone</IRI>
+        <IRI>#Téléphone</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Vidéo</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Vidéo</IRI>
+        <IRI>#Vidéo</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Vigile</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Vigile</IRI>
+        <IRI>#Vigile</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#D&apos;Estampes</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#D&apos;Estampes</IRI>
+        <IRI>#D&apos;Estampes</IRI>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
