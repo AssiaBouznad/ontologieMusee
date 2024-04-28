@@ -1,0 +1,1825 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12/"
+     xml:base="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:est_l="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_l&apos;"
+     xmlns:untitled-ontology-12="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#oneof -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#oneof"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_créé -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_créé">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_été_créé_par"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_fondé_le_musée -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_fondé_le_musée">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_été_fondé_par"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_reçu_comme_award -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_reçu_comme_award">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_l&apos;award_reçu_par_le_musée"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_été_créé_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_été_créé_par"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_été_fondé_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_été_fondé_par"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_arrondissement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_arrondissement">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#se_trouve_dans_le"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_de_style -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_de_style">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_le_style"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_exposé_au_musée -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_exposé_au_musée">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#expose"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_la_rue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_la_rue">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#se_trouve_dans_la_rue"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_la_technique_utilisée_pour -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_la_technique_utilisée_pour">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#utilise_la_technique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_le_numéro_de_rue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_le_numéro_de_rue">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#se_trouve_au_numéro_de_rue"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_le_numéro_de_téléphone -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_le_numéro_de_téléphone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_le_site_web -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_le_site_web"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_le_style -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_le_style"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_le_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_le_type">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_un"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_un -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_un"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_une -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_une"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#expose -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#expose"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#paye -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#paye">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#sont_payés_par"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#se_situe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#se_situe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#se_trouve_au_numéro_de_rue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#se_trouve_au_numéro_de_rue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#se_trouve_dans_la_rue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#se_trouve_dans_la_rue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#se_trouve_dans_le -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#se_trouve_dans_le"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#sont_payés_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#sont_payés_par"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#utilise_la_technique -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#utilise_la_technique"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_l&apos;award_reçu_par_le_musée -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_l&apos;award_reçu_par_le_musée"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#AnneeDeCreation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#AnneeDeCreation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Nom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Nom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Artiste"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Accès -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Accès">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Accès"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Activité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Activité">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Activité"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Adresse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Adresse">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#se_situe"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Coordonnée"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Adresse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Alarme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Alarme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sécurité"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Alarme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Américaine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Américaine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Récompense"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Américaine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Anti-Intrusion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Anti-Intrusion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Alarme"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Anti-Intrusion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Architecture">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Architecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Arrondissement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Arrondissement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Adresse"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Arrondissement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Artiste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Artiste">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_créé"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Oeuvre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_créé"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Oeuvre"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Artiste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#BoutiqueSouvenirs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#BoutiqueSouvenirs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Service"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#BoutiqueSouvenirs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Brochure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Brochure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RessourceMultimédia"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Brochure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Café -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Café">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Service"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Café"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Caméra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Caméra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sécurité"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Caméra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Collection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Collection">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Collection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Complet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Complet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Tarif"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Concert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Concert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourAdulte"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Concert"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Coordonnée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Coordonnée">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Coordonnée"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DeCostumes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DeCostumes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Collection"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DeMonnaies"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DeSculptures"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DeCostumes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DeMonnaies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DeMonnaies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Collection"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DeMonnaies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DePeintures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DePeintures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Collection"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DePeintures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DePhotographies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DePhotographies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Collection"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DePhotographies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DePiecesDeMobiliers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DePiecesDeMobiliers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Collection"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DePiecesDeMobiliers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DeSculptures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DeSculptures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Collection"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DeSculptures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Empereur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Empereur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Fondateur"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Empereur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Exposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Exposition">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Exposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Facebook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Facebook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RéseauSocial"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Facebook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Femme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Femme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Artiste"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Homme"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Femme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Fondateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Fondateur">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#a_fondé_le_musée"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Fondateur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Fouille -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Fouille">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sécurité"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Fouille"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Française -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Française">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Récompense"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Française"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Guide_Audio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Guide_Audio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RessourceMultimédia"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Guide_Audio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Homme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Homme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Artiste"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Homme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Instagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Instagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RéseauSocial"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Instagram"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Langue_des_signes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Langue_des_signes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RessourceMultimédia"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Langue_des_signes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Librairie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Librairie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Service"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Librairie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#expose"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Oeuvre"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#expose"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Oeuvre"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Numéro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Numéro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Adresse"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Numéro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Oeuvre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Oeuvre">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_une"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Photographie"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_exposé_au_musée"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Oeuvre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#ParMétro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#ParMétro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Accès"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#ParMétro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Parking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Parking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Accès"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Parking"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Oeuvre"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Permanente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Permanente">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Temporaire"/>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Exposition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Temporaire"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Permanente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Photographie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Photographie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Oeuvre"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Photographie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourAdulte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourAdulte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Activité"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourAdulte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourEnfant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourEnfant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Activité"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourEnfant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourHandicapé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourHandicapé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Accès"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourHandicapé"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourOeuvre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourOeuvre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Alarme"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourOeuvre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourPeinture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourPeinture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Technique"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourPeinture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourPhotographie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourPhotographie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Technique"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourPhotographie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourSculpture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourSculpture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Technique"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourSculpture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Privé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Privé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sponsor"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Privé"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Président -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Président">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Fondateur"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Président"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Public -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Public">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Public"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Publique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Publique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sponsor"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Publique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RessourceMultimédia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RessourceMultimédia">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RessourceMultimédia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Restaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Service"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Restaurant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Rue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Rue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Adresse"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Rue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Récompense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Récompense">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Récompense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Réduit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Réduit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Tarif"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Complet"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Réduit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RéseauSocial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RéseauSocial">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RéseauSocial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Oeuvre"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Service">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#SiteWeb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#SiteWeb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Coordonnée"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#SiteWeb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Spectacle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Spectacle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourEnfant"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Spectacle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sponsor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sponsor">
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sponsor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Style -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Style">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Architecture"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Style"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sécurité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sécurité">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sécurité"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Tarif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Tarif">
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Tarif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Technique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Technique">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#est_la_technique_utilisée_pour"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Oeuvre"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Technique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Temporaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Temporaire">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Permanente"/>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Exposition"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Temporaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Twitter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Twitter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RéseauSocial"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Twitter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Architecture"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Téléphone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Téléphone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Coordonnée"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Téléphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Vidéo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Vidéo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#RessourceMultimédia"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Vidéo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Vigile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Vigile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sécurité"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Vigile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Estampes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Estampes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Collection"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Estampes"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Adulte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Adulte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Public"/>
+        <untitled-ontology-12:paye rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#16€"/>
+        <untitled-ontology-12:paye rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#22€"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Anonyme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Anonyme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Homme"/>
+        <untitled-ontology-12:a_créé rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture_masculine_anthropomorphe_Moai_kava-kava"/>
+        <untitled-ontology-12:a_créé rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#VenusDeMilo"/>
+        <untitled-ontology-12:a_créé rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture_de_l&apos;église_Abba_Antonios"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Ascenseur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Ascenseur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourHandicapé"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Auguste_Clésinger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Auguste_Clésinger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Homme"/>
+        <untitled-ontology-12:a_créé rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Femme_piquée_par_un_serpent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Bardaje -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Bardaje"/>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Beaux-Arts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Beaux-Arts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Style"/>
+        <untitled-ontology-12:est_le_style rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PalaisGalliera"/>
+        <untitled-ontology-12:est_le_style rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Bois -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Bois">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourSculpture"/>
+        <untitled-ontology-12:est_la_technique_utilisée_pour rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture_masculine_anthropomorphe_Moai_kava-kava"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Carnavalet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Carnavalet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée"/>
+        <untitled-ontology-12:est_de_style rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Classique"/>
+        <untitled-ontology-12:est_un rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Hôtel"/>
+        <untitled-ontology-12:expose rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Portrait_de_Juliette_Recamier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Chateau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Chateau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Type"/>
+        <untitled-ontology-12:est_le_type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuLouvre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Classique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Classique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Style"/>
+        <untitled-ontology-12:est_le_style rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Carnavalet"/>
+        <untitled-ontology-12:est_le_style rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuLouvre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuLouvre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuLouvre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée"/>
+        <untitled-ontology-12:a_été_fondé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Napoléon"/>
+        <untitled-ontology-12:est_de_style rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Classique"/>
+        <untitled-ontology-12:est_un rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Chateau"/>
+        <untitled-ontology-12:expose rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#La_Joconde"/>
+        <untitled-ontology-12:expose rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#VenusDeMilo"/>
+        <untitled-ontology-12:se_trouve_dans_le rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#1er"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée"/>
+        <untitled-ontology-12:a_été_fondé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#JacquesChirac"/>
+        <untitled-ontology-12:est_de_style rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Moderne"/>
+        <untitled-ontology-12:expose rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture_masculine_anthropomorphe_Moai_kava-kava"/>
+        <untitled-ontology-12:expose rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture_de_l&apos;église_Abba_Antonios"/>
+        <untitled-ontology-12:se_trouve_dans_le rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#7ème"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Edouard_Manet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Edouard_Manet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Homme"/>
+        <untitled-ontology-12:a_créé rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Le_Déjeuner_sur_l&apos;herbe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Egidio_Scaioni -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Egidio_Scaioni">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Homme"/>
+        <untitled-ontology-12:a_créé rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Scène_à_la_piscine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Encre_de_Chine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Encre_de_Chine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourPeinture"/>
+        <untitled-ontology-12:est_la_technique_utilisée_pour rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture_de_l&apos;église_Abba_Antonios"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Enfants -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Enfants">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Public"/>
+        <untitled-ontology-12:paye rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#0€"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Etudiants -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Etudiants">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Public"/>
+        <untitled-ontology-12:paye rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#0€"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Famille -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Famille">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Public"/>
+        <untitled-ontology-12:paye rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#31€"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Femme_piquée_par_un_serpent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Femme_piquée_par_un_serpent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture"/>
+        <untitled-ontology-12:a_été_créé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Auguste_Clésinger"/>
+        <untitled-ontology-12:est_exposé_au_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#François_Gérard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#François_Gérard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Homme"/>
+        <untitled-ontology-12:a_créé rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Portrait_de_Juliette_Recamier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Gare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Gare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Type"/>
+        <untitled-ontology-12:est_le_type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Georges_Clairin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Georges_Clairin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Homme"/>
+        <untitled-ontology-12:a_créé rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sarah_Bernhardt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Huile_sur_bois -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Huile_sur_bois">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourPeinture"/>
+        <untitled-ontology-12:est_la_technique_utilisée_pour rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#La_Joconde"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Huile_sur_toile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Huile_sur_toile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourPeinture"/>
+        <untitled-ontology-12:est_la_technique_utilisée_pour rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Portrait_de_Juliette_Recamier"/>
+        <untitled-ontology-12:est_la_technique_utilisée_pour rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sarah_Bernhardt"/>
+        <untitled-ontology-12:est_la_technique_utilisée_pour rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Le_Déjeuner_sur_l&apos;herbe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Hôtel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Hôtel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Type"/>
+        <untitled-ontology-12:est_le_type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Carnavalet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#JacquesChirac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#JacquesChirac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Président"/>
+        <untitled-ontology-12:a_fondé_le_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly"/>
+        <untitled-ontology-12:a_fondé_le_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Journalistes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Journalistes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Public"/>
+        <untitled-ontology-12:paye rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#0€"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#La_Bacchante -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#La_Bacchante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture"/>
+        <untitled-ontology-12:a_été_créé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Auguste_Clésinger"/>
+        <untitled-ontology-12:est_exposé_au_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#La_Joconde -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#La_Joconde">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture"/>
+        <untitled-ontology-12:a_été_créé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Léonard_de_Vinci"/>
+        <untitled-ontology-12:est_exposé_au_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuLouvre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Label_Tourisme_et_Handicap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Label_Tourisme_et_Handicap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Française"/>
+        <est_l:award_reçu_par_le_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuLouvre"/>
+        <est_l:award_reçu_par_le_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly"/>
+        <est_l:award_reçu_par_le_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Léonard_de_Vinci -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Léonard_de_Vinci">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Homme"/>
+        <untitled-ontology-12:a_créé rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#La_Joconde"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Marbre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Marbre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourSculpture"/>
+        <untitled-ontology-12:est_la_technique_utilisée_pour rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Femme_piquée_par_un_serpent"/>
+        <untitled-ontology-12:est_la_technique_utilisée_pour rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#La_Bacchante"/>
+        <untitled-ontology-12:est_la_technique_utilisée_pour rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#VenusDeMilo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Moderne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Moderne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Style"/>
+        <untitled-ontology-12:est_le_style rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée_de_France -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée_de_France">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Française"/>
+        <est_l:award_reçu_par_le_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuLouvre"/>
+        <est_l:award_reçu_par_le_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly"/>
+        <est_l:award_reçu_par_le_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Napoléon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Napoléon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Empereur"/>
+        <untitled-ontology-12:a_fondé_le_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuLouvre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Palais -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Palais">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Type"/>
+        <untitled-ontology-12:est_le_type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PalaisGalliera"/>
+        <untitled-ontology-12:est_le_type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Petit_Palais"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PalaisGalliera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PalaisGalliera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée"/>
+        <untitled-ontology-12:est_de_style rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Beaux-Arts"/>
+        <untitled-ontology-12:est_un rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Palais"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PeabodyAwards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PeabodyAwards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Américaine"/>
+        <est_l:award_reçu_par_le_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Petit_Palais -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Petit_Palais">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée"/>
+        <untitled-ontology-12:est_de_style rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Classique"/>
+        <untitled-ontology-12:est_un rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Palais"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Portrait_de_Juliette_Recamier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Portrait_de_Juliette_Recamier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture"/>
+        <untitled-ontology-12:a_été_créé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#François_Gérard"/>
+        <untitled-ontology-12:est_exposé_au_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Carnavalet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Quai_Jacques_Chirac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Quai_Jacques_Chirac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Rue"/>
+        <untitled-ontology-12:est_la_rue rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Ronde_bosse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Ronde_bosse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourSculpture"/>
+        <untitled-ontology-12:est_la_technique_utilisée_pour rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Femme_piquée_par_un_serpent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Rue_de_Sévigné -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Rue_de_Sévigné">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Rue"/>
+        <untitled-ontology-12:est_la_rue rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Carnavalet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sarah_Bernhardt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sarah_Bernhardt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture"/>
+        <untitled-ontology-12:a_été_créé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Georges_Clairin"/>
+        <untitled-ontology-12:est_exposé_au_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Petit_Palais"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture_masculine_anthropomorphe_Moai_kava-kava -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture_masculine_anthropomorphe_Moai_kava-kava">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture"/>
+        <untitled-ontology-12:a_été_créé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Anonyme"/>
+        <untitled-ontology-12:est_exposé_au_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Scène_à_la_piscine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Scène_à_la_piscine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Photographie"/>
+        <untitled-ontology-12:a_été_créé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Egidio_Scaioni"/>
+        <untitled-ontology-12:est_exposé_au_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PalaisGalliera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Séniors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Séniors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Public"/>
+        <untitled-ontology-12:paye rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#0€"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#VenusDeMilo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#VenusDeMilo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Sculpture"/>
+        <untitled-ontology-12:a_été_créé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Anonyme"/>
+        <untitled-ontology-12:est_exposé_au_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuLouvre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Vivex -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Vivex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PourPhotographie"/>
+        <untitled-ontology-12:est_la_technique_utilisée_pour rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Scène_à_la_piscine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#avenue_Pierre_1er_de_Serbie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#avenue_Pierre_1er_de_Serbie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Rue"/>
+        <untitled-ontology-12:est_la_rue rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PalaisGalliera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#avenue_Winston-Churchill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#avenue_Winston-Churchill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Rue"/>
+        <untitled-ontology-12:est_la_rue rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Petit_Palais"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#rue_de_Bellechasse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#rue_de_Bellechasse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Rue"/>
+        <untitled-ontology-12:est_la_rue rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#rue_de_Lille -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#rue_de_Lille">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Rue"/>
+        <untitled-ontology-12:est_la_rue rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#+33_1_40_20_53_17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#+33_1_40_20_53_17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Téléphone"/>
+        <untitled-ontology-12:est_le_numéro_de_téléphone rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuLouvre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#+33_1_40_49_48_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#+33_1_40_49_48_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Téléphone"/>
+        <untitled-ontology-12:est_le_numéro_de_téléphone rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#+33_1_56_61_70_00 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#+33_1_56_61_70_00">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Téléphone"/>
+        <untitled-ontology-12:est_le_numéro_de_téléphone rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#-26ans -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#-26ans">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Public"/>
+        <untitled-ontology-12:paye rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#0€"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#0€ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#0€">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Réduit"/>
+        <untitled-ontology-12:sont_payés_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Enfants"/>
+        <untitled-ontology-12:sont_payés_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Etudiants"/>
+        <untitled-ontology-12:sont_payés_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Journalistes"/>
+        <untitled-ontology-12:sont_payés_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Séniors"/>
+        <untitled-ontology-12:sont_payés_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#-26ans"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Numéro"/>
+        <untitled-ontology-12:est_le_numéro_de_rue rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#1er -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#1er">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Arrondissement"/>
+        <untitled-ontology-12:est_arrondissement rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuLouvre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Numéro"/>
+        <untitled-ontology-12:est_le_numéro_de_rue rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PalaisGalliera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#16ème -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#16ème">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Arrondissement"/>
+        <untitled-ontology-12:est_arrondissement rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PalaisGalliera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#16€ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#16€">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Complet"/>
+        <untitled-ontology-12:sont_payés_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Adulte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#22€ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#22€">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Complet"/>
+        <untitled-ontology-12:sont_payés_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Adulte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#3ème -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#3ème">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Arrondissement"/>
+        <untitled-ontology-12:est_arrondissement rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Carnavalet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#31€ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#31€">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Réduit"/>
+        <untitled-ontology-12:sont_payés_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Famille"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#37 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#37">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Numéro"/>
+        <untitled-ontology-12:est_le_numéro_de_rue rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#62 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#62">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Numéro"/>
+        <untitled-ontology-12:est_le_numéro_de_rue rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#7ème -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#7ème">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Arrondissement"/>
+        <untitled-ontology-12:est_arrondissement rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly"/>
+        <untitled-ontology-12:est_arrondissement rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#8ème -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#8ème">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Arrondissement"/>
+        <untitled-ontology-12:est_arrondissement rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Petit_Palais"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée"/>
+        <untitled-ontology-12:a_reçu_comme_award rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Label_Tourisme_et_Handicap"/>
+        <untitled-ontology-12:a_reçu_comme_award rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Musée_de_France"/>
+        <untitled-ontology-12:a_reçu_comme_award rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#PeabodyAwards"/>
+        <untitled-ontology-12:a_été_fondé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#ValéryGiscardD&apos;Estaing"/>
+        <untitled-ontology-12:est_de_style rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Beaux-Arts"/>
+        <untitled-ontology-12:est_une rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Gare"/>
+        <untitled-ontology-12:expose rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Femme_piquée_par_un_serpent"/>
+        <untitled-ontology-12:expose rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#La_Bacchante"/>
+        <untitled-ontology-12:expose rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Le_Déjeuner_sur_l&apos;herbe"/>
+        <untitled-ontology-12:se_trouve_dans_le rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#7ème"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Le_Déjeuner_sur_l&apos;herbe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Le_Déjeuner_sur_l&apos;herbe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture"/>
+        <untitled-ontology-12:a_été_créé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Edouard_Manet"/>
+        <untitled-ontology-12:est_exposé_au_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture_de_l&apos;église_Abba_Antonios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture_de_l&apos;église_Abba_Antonios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Peinture"/>
+        <untitled-ontology-12:a_été_créé_par rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Anonyme"/>
+        <untitled-ontology-12:est_exposé_au_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#ValéryGiscardD&apos;Estaing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#ValéryGiscardD&apos;Estaing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#Président"/>
+        <untitled-ontology-12:a_fondé_le_musée rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://quaibranly.fr -->
+
+    <owl:NamedIndividual rdf:about="https://quaibranly.fr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#SiteWeb"/>
+        <untitled-ontology-12:est_le_site_web rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#DuQuaiBranly"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.musee-orsay.fr -->
+
+    <owl:NamedIndividual rdf:about="https://www.musee-orsay.fr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#SiteWeb"/>
+        <untitled-ontology-12:est_le_site_web rdf:resource="http://www.semanticweb.org/clara/ontologies/2024/3/untitled-ontology-12#D&apos;Orsay"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

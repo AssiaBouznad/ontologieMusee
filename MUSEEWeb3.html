@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface SPARQL</title>
+</head>
+<body>
+    <h1>Interface SPARQL</h1>
+
+    <form id="sparql-form">
+        <label for="query">Entrez votre requête SPARQL :</label><br>
+        <textarea id="query" rows="5" cols="50"></textarea><br>
+        <button type="submit">Exécuter la requête</button>
+    </form>
+
+    <h2>Résultats de la requête :</h2>
+    <div id="results"></div>
+
+    <script>
+        const form = document.getElementById('sparql-form');
+        const resultsDiv = document.getElementById('results');
+
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const query = document.getElementById('query').value;
+            const encodedQuery = encodeURIComponent(query);
+
+            const endpointUrl = 'http://localhost:3030/#/dataset/MUSEE.rdf/query?query=' + encodedQuery;
+
+            try {
+                const response = await fetch(endpointUrl);
+                const data = await response.json();
+
+                resultsDiv.innerHTML = JSON.stringify(data);
+            } catch (error) {
+                resultsDiv.innerHTML = 'Une erreur s\'est produite lors de l\'exécution de la requête.';
+            }
+        });
+    </script>
+</body>
+</html>
